@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <default revision="main" remote="manquintero" sync-c="true" />
+
+  <!-- Remotes -->
+  <remote name="manquintero" fetch="git@github.com:manquintero" />
+  <remote name="yocto" fetch="git://git.yoctoproject.org" />
+  <remote name="intel" fetch="https://github.com/YoeDistro" />
+
+  <!-- Projects -->
+  <project remote="yocto" name="poky" revision="scarthgap" path="." />
+  <project remote="manquintero" name="scheduler-tools" revision="scarthgap" path="build/tools">
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+  </project>
+
+  <!-- Layers -->
+  <project remote="intel" name="meta-intel" revision="master" />
+  <project remote="manquintero" name="meta-scheduler" revision="scarthgap" />
+</manifest>
