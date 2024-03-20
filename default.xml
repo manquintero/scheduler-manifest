@@ -6,6 +6,7 @@
   <remote name="manquintero" fetch="git@github.com:manquintero" />
   <remote name="yocto" fetch="git://git.yoctoproject.org" />
   <remote name="intel" fetch="https://github.com/YoeDistro" />
+  <remote name="openembedded" fetch="git://git.openembedded.org" />
 
   <!-- Projects -->
   <project remote="yocto" name="poky" revision="scarthgap" path="." />
@@ -16,4 +17,5 @@
   <!-- Layers -->
   <project remote="intel" name="meta-intel" revision="master" />
   <project remote="manquintero" name="meta-scheduler" revision="scarthgap" />
+  <project remote="openembedded" name="meta-openembedded" revision="master" />
 </manifest>
