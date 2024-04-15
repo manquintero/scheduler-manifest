@@ -4,9 +4,9 @@
 
   <!-- Remotes -->
   <remote name="manquintero" fetch="git@github.com:manquintero" />
-  <remote name="yocto" fetch="git://git.yoctoproject.org" />
+  <remote name="yocto" fetch="https://git.yoctoproject.org" />
   <remote name="intel" fetch="https://github.com/YoeDistro" />
-  <remote name="openembedded" fetch="git://git.openembedded.org" />
+  <remote name="openembedded" fetch="https://git.openembedded.org" />
 
   <!-- Projects -->
   <project remote="yocto" name="poky" revision="scarthgap" path="." />
