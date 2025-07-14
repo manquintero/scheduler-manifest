@@ -15,7 +15,7 @@
   </project>
 
   <!-- Layers -->
-  <project remote="intel" name="meta-intel" revision="master" />
+  <project remote="intel" name="meta-intel" revision="scarthgap" />
   <project remote="manquintero" name="meta-scheduler" revision="scarthgap" />
   <project remote="openembedded" name="meta-openembedded" revision="master" />
 </manifest>
